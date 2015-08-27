@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Serif-TPi_Lib)(type KiCad)(uri "$(KIPRJMOD)\\Serif-TPi_Lib.pretty")(options "")(descr ""))
+  (lib (name aLaMode_v3)(type Legacy)(uri C:\Users\Kevin.Kevin-PC\Desktop\hacking\wyolum\trunk\KiCad\aLaMode_v3\aLaMode_Libs\aLaMode_v3.mod)(options "")(descr ""))
+)

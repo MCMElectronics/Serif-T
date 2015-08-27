@@ -1,0 +1,256 @@
+(pcb "C:\Users\Kevin.Kevin-PC\Documents\GitHub\Serif-TPi\Serif-TPi.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2015-07-30 BZR 6023, Git cb629e0)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 44448.8 -84385 104903 -148065)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Straight_2x20
+      (place P1 97790 -86360 front 270 (PN "PI-GPIO+"))
+      (place P2 71120 -97790 front 0 (PN "PI-GPIO+"))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x02
+      (place P3 50800 -95250 front 90 (PN 3V3))
+      (place P4 95250 -93980 front 90 (PN 5V))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Straight_2x20
+      (outline (path signal 50  -1750 1750  -1750 -50050))
+      (outline (path signal 50  4300 1750  4300 -50050))
+      (outline (path signal 50  -1750 1750  4300 1750))
+      (outline (path signal 50  -1750 -50050  4300 -50050))
+      (outline (path signal 150  3810 -49530  3810 1270))
+      (outline (path signal 150  -1270 -1270  -1270 -49530))
+      (outline (path signal 150  3810 -49530  -1270 -49530))
+      (outline (path signal 150  3810 1270  1270 1270))
+      (outline (path signal 150  0 1550  -1550 1550))
+      (outline (path signal 150  1270 1270  1270 -1270))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 1550  -1550 0))
+      (pin Rect[A]Pad_1727.2x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 2 2540 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 3 0 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 4 2540 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 5 0 -5080)
+      (pin Oval[A]Pad_1727.2x1727.2_um 6 2540 -5080)
+      (pin Oval[A]Pad_1727.2x1727.2_um 7 0 -7620)
+      (pin Oval[A]Pad_1727.2x1727.2_um 8 2540 -7620)
+      (pin Oval[A]Pad_1727.2x1727.2_um 9 0 -10160)
+      (pin Oval[A]Pad_1727.2x1727.2_um 10 2540 -10160)
+      (pin Oval[A]Pad_1727.2x1727.2_um 11 0 -12700)
+      (pin Oval[A]Pad_1727.2x1727.2_um 12 2540 -12700)
+      (pin Oval[A]Pad_1727.2x1727.2_um 13 0 -15240)
+      (pin Oval[A]Pad_1727.2x1727.2_um 14 2540 -15240)
+      (pin Oval[A]Pad_1727.2x1727.2_um 15 0 -17780)
+      (pin Oval[A]Pad_1727.2x1727.2_um 16 2540 -17780)
+      (pin Oval[A]Pad_1727.2x1727.2_um 17 0 -20320)
+      (pin Oval[A]Pad_1727.2x1727.2_um 18 2540 -20320)
+      (pin Oval[A]Pad_1727.2x1727.2_um 19 0 -22860)
+      (pin Oval[A]Pad_1727.2x1727.2_um 20 2540 -22860)
+      (pin Oval[A]Pad_1727.2x1727.2_um 21 0 -25400)
+      (pin Oval[A]Pad_1727.2x1727.2_um 22 2540 -25400)
+      (pin Oval[A]Pad_1727.2x1727.2_um 23 0 -27940)
+      (pin Oval[A]Pad_1727.2x1727.2_um 24 2540 -27940)
+      (pin Oval[A]Pad_1727.2x1727.2_um 25 0 -30480)
+      (pin Oval[A]Pad_1727.2x1727.2_um 26 2540 -30480)
+      (pin Oval[A]Pad_1727.2x1727.2_um 27 0 -33020)
+      (pin Oval[A]Pad_1727.2x1727.2_um 28 2540 -33020)
+      (pin Oval[A]Pad_1727.2x1727.2_um 29 0 -35560)
+      (pin Oval[A]Pad_1727.2x1727.2_um 30 2540 -35560)
+      (pin Oval[A]Pad_1727.2x1727.2_um 31 0 -38100)
+      (pin Oval[A]Pad_1727.2x1727.2_um 32 2540 -38100)
+      (pin Oval[A]Pad_1727.2x1727.2_um 33 0 -40640)
+      (pin Oval[A]Pad_1727.2x1727.2_um 34 2540 -40640)
+      (pin Oval[A]Pad_1727.2x1727.2_um 35 0 -43180)
+      (pin Oval[A]Pad_1727.2x1727.2_um 36 2540 -43180)
+      (pin Oval[A]Pad_1727.2x1727.2_um 37 0 -45720)
+      (pin Oval[A]Pad_1727.2x1727.2_um 38 2540 -45720)
+      (pin Oval[A]Pad_1727.2x1727.2_um 39 0 -48260)
+      (pin Oval[A]Pad_1727.2x1727.2_um 40 2540 -48260)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x02
+      (outline (path signal 150  1270 -1270  1270 -3810))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 50  -1750 1750  -1750 -4300))
+      (outline (path signal 50  1750 1750  1750 -4300))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -4300  1750 -4300))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (outline (path signal 150  -1270 -1270  -1270 -3810))
+      (outline (path signal 150  -1270 -3810  1270 -3810))
+      (pin Rect[A]Pad_2032x2032_um 1 0 0)
+      (pin Oval[A]Pad_2032x2032_um 2 0 -2540)
+    )
+    (padstack Oval[A]Pad_1727.2x1727.2_um
+      (shape (path F.Cu 1727.2  0 0  0 0))
+      (shape (path B.Cu 1727.2  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2032x2032_um
+      (shape (path F.Cu 2032  0 0  0 0))
+      (shape (path B.Cu 2032  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x2032_um
+      (shape (rect F.Cu -1016 -1016 1016 1016))
+      (shape (rect B.Cu -1016 -1016 1016 1016))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1727.2x1727.2_um
+      (shape (rect F.Cu -863.6 -863.6 863.6 863.6))
+      (shape (rect B.Cu -863.6 -863.6 863.6 863.6))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /3V3
+      (pins P1-1 P1-17 P2-1 P2-17 P3-1)
+    )
+    (net +5V
+      (pins P1-2 P1-4 P2-2 P2-4 P4-1)
+    )
+    (net /SDA
+      (pins P1-3 P2-3)
+    )
+    (net /SCL
+      (pins P1-5 P2-5)
+    )
+    (net GND
+      (pins P1-6 P1-9 P1-14 P1-20 P1-25 P1-30 P1-34 P1-38 P2-6 P2-9 P2-14 P2-20 P2-25
+        P2-30 P2-34 P2-38)
+    )
+    (net /BCM4
+      (pins P1-7 P2-7)
+    )
+    (net /TXD
+      (pins P1-8 P2-8)
+    )
+    (net /RXD
+      (pins P1-10 P2-10)
+    )
+    (net /BCM17
+      (pins P1-11 P2-11)
+    )
+    (net /BCM18
+      (pins P1-12 P2-12)
+    )
+    (net /BCM27
+      (pins P1-13 P2-13)
+    )
+    (net /BCM22
+      (pins P1-15 P2-15)
+    )
+    (net /BCM23
+      (pins P1-16 P2-16)
+    )
+    (net /BCM24
+      (pins P1-18 P2-18)
+    )
+    (net /MOSI
+      (pins P1-19 P2-19)
+    )
+    (net /MISO
+      (pins P1-21 P2-21)
+    )
+    (net /BVM25
+      (pins P1-22 P2-22)
+    )
+    (net /SCLK
+      (pins P1-23 P2-23)
+    )
+    (net /CE0
+      (pins P1-24 P2-24)
+    )
+    (net /CE1
+      (pins P1-26 P2-26)
+    )
+    (net /SD
+      (pins P1-27 P2-27)
+    )
+    (net /IDSC
+      (pins P1-28 P2-28)
+    )
+    (net /BCM5
+      (pins P1-29 P2-29)
+    )
+    (net /BVM6
+      (pins P1-31 P2-31)
+    )
+    (net /BCM12
+      (pins P1-32 P2-32)
+    )
+    (net /BCM13
+      (pins P1-33 P2-33)
+    )
+    (net /BCM19
+      (pins P1-35 P2-35)
+    )
+    (net /BCM16
+      (pins P1-36 P2-36)
+    )
+    (net /BCM26
+      (pins P1-37 P2-37)
+    )
+    (net /BCM20
+      (pins P1-39 P2-39)
+    )
+    (net /BCM21
+      (pins P1-40 P2-40)
+    )
+    (net "Net-(P3-Pad2)"
+      (pins P3-2)
+    )
+    (net "Net-(P4-Pad2)"
+      (pins P4-2)
+    )
+    (class kicad_default "" +5V /3V3 /BCM12 /BCM13 /BCM16 /BCM17 /BCM18 /BCM19
+      /BCM20 /BCM21 /BCM22 /BCM23 /BCM24 /BCM26 /BCM27 /BCM4 /BCM5 /BVM25
+      /BVM6 /CE0 /CE1 /IDSC /MISO /MOSI /RXD /SCL /SCLK /SD /SDA /TXD GND
+      "Net-(P3-Pad2)" "Net-(P4-Pad2)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
